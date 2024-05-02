@@ -1,0 +1,13 @@
+@import url(navbar.css);
+@import url(accueil.css);
+@import url(produit.css);
+@import url(services.css);
+@import url(avis.css);
+
+body{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}

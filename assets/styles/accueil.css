@@ -1,0 +1,16 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(28, 67, 223, 0.5), rgba(255,255,255,0.5)), url(https://cdn-s-www.leprogres.fr/images/157B8E3B-75FD-44D3-99A9-6FBFD4FC7286/NW_raw/un-mur-de-sneakers-photo-progres-richard-mouillaud-1697247110.jpg);
+
+}
+
+#main > h1{
+    font-size: 5rem;
+    color: white;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

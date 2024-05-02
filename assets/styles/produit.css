@@ -1,0 +1,45 @@
+.containers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 16px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.642);
+}
+.card img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.card-content{
+    padding: 16px;
+    width: 50%;
+}
+
+.card-content h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+#produits h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2rem;
+}
+
+#produits{
+    height: 100vh;
+}

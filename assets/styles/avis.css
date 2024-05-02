@@ -1,0 +1,25 @@
+#avis {
+    min-height: 50vh;
+    background-color: bisque;
+}
+
+#avis h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2rem;
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comment{
+    width: 500px;
+    height: 90px;
+    border-radius: 100px;
+    border: none;
+}
+
