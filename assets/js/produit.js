@@ -17,8 +17,10 @@ fetch (link)
             h3.innerText = produit.nom
             const p = document.createElement("p")
             p.innerText = produit.description
-            // card.appendChild(image)
-            // card.appendChild(cardContent)
-            // containers.appendChild(card)
+            cardContent.appendChild(h3)
+            cardContent.appendChild(p)
+            card.appendChild(image)
+            card.appendChild(cardContent)
+            containers.appendChild(card)
         })
     })
