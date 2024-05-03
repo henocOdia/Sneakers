@@ -1,5 +1,6 @@
 #services{
     height : 100vh
+    
 }
 
 #services > #containers{
@@ -8,11 +9,18 @@
     align-items: center;
 }
 
-#services h2{
+#services > h2{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 2rem;
+}
+
+#services h3 , p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1rem;
 }
 
 .cards{

@@ -10,11 +10,11 @@ fetch (url)
         services.forEach(service => {
             const containcard = document.createElement("div")
             containcard.classList.add("cards")
-            const h2 = document.createElement("h2")
-            h2.innerText = service.nom
+            const h3 = document.createElement("h3")
+            h3.innerText = service.nom
             const p = document.createElement("p")
             p.innerText = service.description
-            containcard.appendChild(h2)
+            containcard.appendChild(h3)
             containcard.appendChild(p)
             container.appendChild(containcard)
             console.log(containcard)

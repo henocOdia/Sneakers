@@ -42,13 +42,21 @@
         <h2>Vos commentaires</h2>
         <div class="formulaire">
             <form action="" id="form">
+                <div class="presentation">
+                    <label >Votre Nom :
+                        <input type="text" placeholder="Votre nom" id="nom">
+                    </label>
+                    <label>Sujet :
+                        <input type="text" placeholder="A propos de quel sujet ?" id="sujet">
+                    </label>
+                </div>
                 <label> Votre commentaire :
-                <input type="text" placeholder="Ecrivez ici..." id="comment">
+                    <textarea id="commentaire" cols="20" rows="10"></textarea>
                 </label>
-                <input type="submit" value="Envoyer">
+                <input type="submit" value="Envoyer" class="bouton">
             </form>
         </div>
-        <div class="cards">
+        <div id="comments">
 
         </div>
     </section>
